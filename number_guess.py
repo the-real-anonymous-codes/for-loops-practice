@@ -1,14 +1,15 @@
+import random
+secret_num = random.choice(range(101))
+print(secret_num)
 
-secret_num = range(1000)
-while guess_num == secret_num :
+for i in range (1) :
     guess_num = int(input("Enter your guess number: "))
-    
-    if guess_num == secret_num:
+    if guess_num == (secret_num):
         print("YOU WON YOU DOMINATED THE WHOLE GAME")
-    elif abs(guess_num - secret_num) < 2:
-        print("You are too close")
-    elif guess_num > secret_num:
+        break
+    
+    elif guess_num > (secret_num):
         print("You went higher, come to a lower value")
+    
     else:
         print("You went to a lower value, come to a higher value")
-    
