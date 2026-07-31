@@ -22,7 +22,7 @@ for i in range(n):
                 result = "COMPUTER WON"
 
     else:
-        # print(f"Computer chose: {computer_choice}")
+
         result = "YOU WON"
     print(f"Computer chose: {computer_choice}")
     print(result)
