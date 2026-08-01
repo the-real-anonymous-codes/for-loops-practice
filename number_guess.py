@@ -1,6 +1,6 @@
 import random
 secret_num = random.choice(range(101))
-print(secret_num)
+
 
 for i in range (5) :
     guess_num = int(input("Enter your guess number: "))
