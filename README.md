@@ -4,13 +4,10 @@ This project contains beginner-friendly Python programs for practicing `for` loo
 
 Each file is a small exercise focused on iteration, patterns, number sequences, strings, and problem-solving using loops.
 
-
 ## Requirements
-
 - Python 3 installed on your system
 
 ## How to Run
-
 Open a terminal in this project folder and run any program with:
 
 ```bash
